@@ -1,0 +1,49 @@
+Introduction to Cloud Computing:
+
+Cloud computing developed out of distributed systems(clustering and grid computing) and virtualization. Big players like Amazon and Google have huge resources built into a secure facility with the huge amount of cooling required for the huge amount of computation.
+
+Virtualization: The resource pool is present with the provider. The cloud user would subscribe for resources and it is usually pay as you go model. The user pays only to the resource that he uses from the pool. When user is instantiating a virtual machine, the required resource are allocated and required software services start operating on the resources. At the bottom most layer in the hardware resources, these could be distributed. To manage these and provide as needed for the cloud user is the hypervisor's job. The hypervisor could be considered as the operating system in a distributed multiplatform environment orchestrating all resources and needs.
+
+Benefits of cloud:
+
+Zero initial setup cost
+Pay only for what you use.
+Grow or shrink according to need - elasticity.
+ Increased availability and reliability.
+
+Risks and Challenges:
+
+Challenges in securing the application and platform
+Compliance and regional legal restrictions vastly differing.
+Portability between different cloud providers.
+Level of governance lower for cloud users than similar on-premise setup.
+
+Impact of cloud computing:
+
+Cloud has enabled online courses and online education platforms to boom, mainly because of the easy set-up, maintenance and access.
+Cloud has enabled online collaboration and sharing of files and information in real time. This means quicker turn-around times in business.
+Cloud is helping in telehealth and telemedicine. It is also helping in insurance computing and movement of data.
+Cloud has broken the file sharing bottlenecks over the internet by providing a common place in the cloud to be accessed by several parties.
+Several organizations are moving towards cloud to leverage the many benefits of the cloud.
+
+Three cloud models:
+
+Infrastructure as a Service: Raw IT infrastructure like hardware, network, operating system are virtualized and provided in bundles to the users. This gives greater control for the users in how their solutions are going to be implemented. The users would implement the infrastructure and establish connectivity like how they would in an on-premise environment.
+Platform as a Service: The infrastructure to run software solutions is already created virtually in the cloud and provided as platforms for the users in a bundle. The users do not have to worry about creating the infrastructure from scratch. Here they lack their control of how their underlying infrastructure is built. Example: Google App Engine, Azure Serverless Platforms like App functions, Event Grid and Logic Apps. Cloud providers are responsible for outages occurring at the platform level. The cloud user is responsible whatever is running on the platform.
+Software as a Service: The infrastructure, platform and software already up and running in the cloud. The software could be used in the cloud instead of having to download the software and having it run in your local environment. Example is MS Word software that runs in the cloud. Users do not have to worry about how and where the software is executing. Users cannot have any control on where the software is running or where their data is getting stored. Cloud providers do all these controls for the users and are responsible for outages occurring at the software level.
+
+Underlying technologies in Cloud:
+
+Fast internet made possible by innovations in broadband network, fiber optic cables, datagram switching. This is the basic necessary technology without which none of the three models could be successful. Cloud users should not feel the lag greater than if they were working in their premises.
+Virtualization: Physical resource converted to one or more virtual resources. The resource could be a server, storage, network, power. This takes away the hardware-software dependencies. There will be performance overhead but could be mitigated if more computational power is available. This technology is key for the Infrastructure as a service. The cloud users are able to create on demand virtual systems in the cloud due to this technology.
+Data Center Technology: Huge data centers and ability to maintain the storage devices has seen advanced developments. Fast data replication, hot swappable storage, I/O caching, hard disk arrays all contribute to better handle huge amount of data. Several storage devices could be connected using technologies like Storage Are a Network and Network-Attached Storage. These help in fast user access to data stored in the cloud. Not only the actual data, the data corresponding to platform or devices are also stored in the huge data centers away from the city or underwater. For all three models of Cloud, this is a critical piece of technology to function.
+Web Technology: On the application level the cloud services are accessible to the users through the web technology. The delivery of the could service happens through web browsers though CLI is available as well. This technology contributes to the ease of use of the cloud services for small organizations in the IaaS and PaaS solutions. For PaaS, cloud solutions often have separate instances of web server, application server and data storage environments. This technology is very important for the SaaS to deliver the SaaS solution to users.
+Multitenant technology: Somewhat similar to virtualization. This technology takes care that each user sees only their data and not even aware of other users being present in the environment. This technology is critical to all three cloud models.
+Containerization: Technology to separate out resources over an operating system to run applications isolated from other things running in the same OS. Containers can be ported to a different machine/OS and offers for smooth migration. It is one of the building blocks of PaaS.
+
+Resources:
+
+Cloud Computing: Concepts, Technology & Architecture (The Pearson Service Technology Series from Thomas Erl)
+https://cloud-computing.tmcnet.com/breaking-news/articles/446806-impacts-cloud-computing-our-everyday-life.htm
+https://www.stratoscale.com/blog/cloud/containers-and-paas-what-is-the-relationship-between-them/
+Cloud Tech - Under The Hood (Part-I) - https://www.linkedin.com/pulse/cloud-tech-under-hood-part-i-ganesh-sahai
